@@ -1,0 +1,109 @@
+:root{
+    --cor-primaria: #F6F5F2;
+    --cor-secundaria: #FFEFEF;
+    --cor-terciaria: #31363F;
+    --cor-quaternaria: #F3D0D7;
+    --padding: 3%; 
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+a:hover{
+    color: var(--cor-quaternaria);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header{
+    background-color: var(--cor-primaria);
+    display: flex;
+    gap: 3%;
+    padding: var(--padding);
+}
+
+#inicio{
+    background-color: var(--cor-primaria);
+    text-align: center;
+    padding: var(--padding);
+}
+
+.majortitle{
+    font-size: 2em;
+}
+
+.minortitle{
+    font-size: 1.5em;
+}
+
+#sobremim{
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: var(--padding);
+}
+#sobremim img{
+    width: 90%;
+}
+#sobremimdiv{
+    display: flex;
+    align-items: center;
+}
+
+#skills{
+    background-color: var(--cor-primaria);
+    text-align: center;
+    padding: var(--padding);
+}
+#skills img{
+width: 7%;
+}
+
+#hobbies{
+    background-color: var(--cor-primaria);
+    text-align: center;
+    padding: var(--padding);
+}
+#hobbiesdiv{
+    display: flex;
+    justify-content: space-around;
+}
+#hobbies img{
+    width: 20%;
+    text-align: center;
+}
+#projetos{
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: var(--padding);
+}
+#projetos img{
+    width: 30%;
+}
+.divimgtextprojetos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.divprojetolinks{
+    max-height: 50%;
+}
+
+#contato{
+    background-color: var(--cor-primaria);
+    text-align: center;
+    padding: var(--padding);
+}
+
+textarea{
+    resize: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
